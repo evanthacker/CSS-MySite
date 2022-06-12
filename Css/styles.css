@@ -1,3 +1,15 @@
+/*BasiC*/
+
+body {
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+/*Classes*/
 .top-container {
   background-color: #e4f9f5;
 }
@@ -16,12 +28,4 @@
 
 .pro {
   text-decoration: underline;
-}
-
-body {
-  margin: 0px;
-}
-
-h1 {
-  margin-top: 0px;
 }
