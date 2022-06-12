@@ -3,6 +3,7 @@
 body {
   margin: 0px;
   text-align: center;
+  font-family: "Helvetic Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -12,6 +13,8 @@ h1 {
 /*Classes*/
 .top-container {
   background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
@@ -28,4 +31,15 @@ h1 {
 
 .pro {
   text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 4%;
+  right: 22%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 22%;
 }
