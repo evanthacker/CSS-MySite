@@ -1,12 +1,18 @@
 /*BasiC*/
 
+/*1em = 16px*/
+
+/* 16px is the basic size: therefore (90px font size / 16px) 100 for percentage = 562.5 percent  */
+
 body {
+  font-size: 1.5em;
   margin: 0px;
   text-align: center;
   font-family: "Merriweather", serif;
 }
 
 h1 {
+  font-size: 4.625em;
   margin-top: 0px;
   font-family: "Sacramento", cursive;
 }
