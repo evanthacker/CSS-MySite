@@ -11,6 +11,7 @@ body {
   margin: 0px;
   text-align: center;
   font-family: "Merriweather", serif;
+  color: #40514e;
 }
 
 h1 {
@@ -35,6 +36,41 @@ h3 {
 
 a {
   color: #11999e;
+}
+
+hr {
+  color: #eaf6f6;
+  border-style: dotted none none none;
+  border-width: 7px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
 
 /*Classes*/
@@ -81,4 +117,38 @@ a {
 .mountain-img {
   margin-top: 99px;
   width: 90vw;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.evan {
+  width: 75%;
+  margin: 10px auto 10px auto;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.bottom-container {
+  margin-top: 100px;
+  line-height: 2;
+  background-color: #66bfbf;
+  position: absolute;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  width: 100%;
+  color: #eaf6f6;
+}
+
+.footer-link {
+  margin: 30px;
 }
