@@ -58,3 +58,22 @@ a {
   position: absolute;
   left: 22%;
 }
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.digital-marketings-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
