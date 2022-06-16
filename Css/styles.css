@@ -27,6 +27,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   color: #66bfbf;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -97,7 +98,7 @@ hr {
 
 .skill-row {
   margin: 100px auto 100px auto;
-  width: 50%;
+  width: 75%;
   text-align: left;
   line-height: 2;
 }
@@ -119,20 +120,20 @@ hr {
   width: 90vw;
 }
 
-.profile {
-  width: 50%;
+.middle-container {
+  width: 75%;
   margin: 100px auto 100px auto;
   text-align: center;
   line-height: 2;
 }
 
 .evan {
-  width: 75%;
+  width: 40%;
   margin: 10px auto 10px auto;
 }
 
 .contact-me {
-  width: 50%;
+  width: 75%;
   margin: 100px auto 100px auto;
   text-align: center;
   line-height: 2;
