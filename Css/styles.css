@@ -37,6 +37,11 @@ h3 {
 
 a {
   color: #11999e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
 }
 
 hr {
@@ -147,9 +152,14 @@ hr {
   padding-top: 50px;
   padding-bottom: 25px;
   width: 100%;
-  color: #eaf6f6;
 }
 
 .footer-link {
   margin: 30px;
+}
+
+.copy {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
 }
